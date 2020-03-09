@@ -28,7 +28,7 @@ public class ScFileInputStream extends InputStream
 	public static void main(String[] args) throws IOException
 	{
 		test0.echoHere();
-		Scout scout = new Scout(new ScFileInputStream.Follow(new File("/Users/apustyphoon/Desktop/1"), Abacus.time.valueOfTimeValue(Abacus.time.valueUnit.seconds, 5), Abacus.time.valueOfTimeValue(Abacus.time.valueUnit.seconds, 60)));
+		Scout scout = new Scout(new ScFileInputStream.Follow(new File(""), Abacus.time.valueOfTimeValue(Abacus.time.valueUnit.seconds, 5), Abacus.time.valueOfTimeValue(Abacus.time.valueUnit.seconds, 60)));
 		test0.echo(scout.readLine());
 		scout.close();
 	}
