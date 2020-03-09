@@ -32,7 +32,7 @@ public abstract class ScoutFile extends ScoutFile_define implements Closeable,_S
 	}
 	public static void main1(String[] args) throws IOException
 	{
-		ScoutFile.InputAble scout = new ScoutFile.InputAble(new File("/Users/apustyphoon/Desktop/1"), new Report.WithFile("/Users/apustyphoon/Desktop/1b"),Abacus.time.valueOfTimeValue(Abacus.time.valueUnit.seconds, 5), Abacus.time.valueOfTimeValue(Abacus.time.valueUnit.seconds, 60));
+		ScoutFile.InputAble scout = new ScoutFile.InputAble(new File(""), new Report.WithFile(""),Abacus.time.valueOfTimeValue(Abacus.time.valueUnit.seconds, 5), Abacus.time.valueOfTimeValue(Abacus.time.valueUnit.seconds, 60));
 		test0.echoHere();
 		scout.readRemainAndPrintToConsole();
 
